@@ -1,0 +1,401 @@
+/* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: #fff;
+  color: #111;
+}
+
+/* Header Styling */
+.top-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 40px;
+  border-bottom: 1px solid #ddd;
+  background-color: white;
+  /* position: sticky; */
+  top: 0;
+  z-index: 10;
+}
+
+.logo img {
+  height: 60px;
+}
+
+.nav-links {
+  display: flex;
+  gap: 30px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #0a0a52;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.phone {
+  font-size: 18px;
+  color: #0a0a52;
+  font-weight: bold;
+}
+
+/* Hero Section */
+.hero {
+  overflow: hidden; /* Prevent scrolling */
+}
+
+.hero-img {
+  width: 100%;
+  max-height: 600px;
+  object-fit: cover;
+  display: block;
+  animation: none; /* Ensure no animation */
+}
+ 
+
+ 
+
+ 
+
+/* page2 */
+/* Basic page styling */
+body {
+    margin: 0;
+    font-family: 'Rubik', sans-serif;
+    background-color: #f4f4f4;
+}
+
+/* Header styling */
+header {
+    background-color: #e1e8f5;
+    text-align: center;
+    padding: 20px 0;
+    box-shadow: 0px 2px 5px rgba(0,0,0,0.1);
+}
+
+header h1 {
+    font-size: 36px;
+    color: #13214d;
+    text-shadow: 2px 2px #bfc8db;
+}
+
+/* Our Services Title */
+.our-services-title {
+    background-color: #bbc5e0;
+    text-align: center;
+    padding: 42px 0 0;
+}
+
+.our-services-title h2 {
+    font-size: 28px;
+    color: #131b4c;
+    font-weight: bold;
+    text-decoration: underline;
+    margin: 0;
+}
+
+/* Services Section */
+.services {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 60px 0;
+    background-color: #bbc5e0;
+    gap: 80px;
+}
+
+.services div {
+    text-align: center;
+}
+
+.services img {
+    width: 60px;
+    height: 60px;
+}
+
+.services h3 {
+    color: #1b1b68;
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+/* Why Choose Us Section */
+.why-choose {
+    background-color: #f5e8e4;
+    padding: 60px;
+    text-align: center;
+}
+
+.why-choose h2 {
+    font-style: italic;
+    color: #2b2c6d;
+    margin-bottom: 20px;
+}
+
+.why-icons {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    flex-wrap: wrap;
+}
+
+.why-icons div {
+    text-align: center;
+}
+
+.why-icons img {
+    width: 50px;
+    height: 50px;
+}
+
+.why-icons p {
+    margin-top: 10px;
+    font-weight: bold;
+    color: #242565;
+}
+
+/* page3 */
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  color: #1a1a1a;
+  background-color: #fff;
+}
+
+.services-section {
+  background-color: #10236a;
+  color: white;
+  padding: 145px 30px;
+  text-align: center;
+  
+}
+
+.services-section h2 {
+  margin-bottom: 10px;
+  font-size: 28px;
+}
+
+.services-section .intro {
+  max-width: 800px;
+  margin: 0 auto 40px;
+  font-size: 14px;
+  color: #cfd6e2;
+}
+
+.card-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 20px;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.card {
+  background: white;
+  color: #000;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: left;
+}
+
+.card h3 {
+  margin-top: 0;
+}
+
+.card a {
+  display: inline-block;
+  margin-top: 10px;
+  color: #10236a;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+
+/* page4 */
+
+
+ /* Reset and Base */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+/* Page Layout */
+.page {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    text-align: center;
+}
+
+#main-page {
+    background-color: #f5faff;
+}
+
+#welcome-page {
+    background-color: navy;
+    color: white;
+}
+
+/* Main Content Styling */
+.content {
+    max-width: 800px;
+}
+
+.content h1 {
+    font-size: 3rem;
+    margin-bottom: 1.5rem;
+    color: #1a1a1a;
+}
+
+.content p {
+    font-size: 1.15rem;
+    color: #333;
+    line-height: 1.6;
+    margin-bottom: 2rem;
+}
+
+/* Button Styling */
+button {
+    background-color: #0047ab;
+    color: white;
+    padding: 14px 30px;
+    font-size: 2rem;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.5s ease; /* Only button transition */
+}
+
+button.clicked {
+    background-color: #b71c1c;
+}
+
+/* Hidden Section */
+.hidden {
+    display: none;
+}
+
+
+/* page5 */
+
+/* Base Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #0b1f61; /* Navy Blue */
+  color: white;
+}
+
+.contact-container {
+  padding: 40px;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 30px;
+  font-size: 2.5rem;
+}
+
+.contact-content {
+  display: flex;
+  gap: 30px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+form {
+  flex: 1;
+  min-width: 300px;
+  max-width: 500px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.form-row {
+  display: flex;
+  gap: 10px;
+}
+
+.form-row input {
+  flex: 1;
+}
+
+input, textarea {
+  padding: 10px;
+  border: none;
+  border-bottom: 2px solid white;
+  background: transparent;
+  color: white;
+  font-size: 1rem;
+}
+
+input::placeholder, textarea::placeholder {
+  color: rgba(255, 255, 255, 0.7);
+}
+
+button {
+  background-color: white;
+  color: #0b1f61;
+  padding: 12px;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #ccc;
+}
+
+#thanks-msg {
+  text-align: center;
+  font-size: 1.1rem;
+  color: lightgreen;
+}
+
+.hidden {
+  display: none;
+}
+
+/* Map Styling */
+.map-container {
+  flex: 1;
+  min-width: 300px;
+  height: 400px;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  font-size: 0.9rem;
+  margin-top: 40px;
+  border-top: 2px solid #ffffff55;
+  padding-top: 20px;
+}
